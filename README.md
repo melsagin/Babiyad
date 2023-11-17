@@ -21,10 +21,15 @@ Proje adı, “Bağışların Birliği Yaşamın Dirliği” mottosuyla yola ç�
 
 Projenin amacı, hem bağış yapmak isteyenlerin hem de STK’lar tarafından desteklenen hastaların ihtiyaçlarını karşılamak için ortak bir platform sağlayan mobil uygulama geliştirmektir; böylece projenin adını aldığı “Bağışların Birliği Yaşamın Dirliği” mottosuyla yola çıkarak bağışların tek bir yerden kolaylıkla yönetilerek hastaların yaşam kalitesine bir katkı sağlanacaktır.
 Bu amaç doğrultusunda projenin hedefleri şunlardır:
+
 •	STK’lar ve bağış yapmak isteyenler arasında bir bağ oluşturmak,
+
 •	SMA ve kanser hastalarına daha etkili destek sağlamak,
+
 •	STK’ların bağış toplama sürecini kolaylaştırmak,
+
 •	Bağış yapmak isteyenlerin kararsızlıklarını önlemek için ortak bir platform üzerinden bağış yapabilecekleri seçenekler sunmak,
+
 •	Uzun vadede; yalnızca SMA ve kanser hastalarına değil hem diğer hastalık gruplarına hem de canlı yaşamını destekleyen her türlü kuruluşa katkı sunarak daha fazla canlının ihtiyaçlarını karşılamak.
 
 Detaylar için bitirme projemin dosyasını bırakıyorum inceleyebilirsiniz:
