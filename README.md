@@ -4,17 +4,20 @@ Proje, Android Studio ortamında Java yazılım dili ve Firebase veritabanı kul
 Proje, içinde barındırdığı geri bildirim mekanizmasıyla ilerleyen versiyonlarla beraber geliştirilebilir ayrıca kapsamı da genişletilebilir.
 
 1.1. KAPSAM VE PROBLEMLER
+
 Günümüzde SMA ve Kanser hastalarını tedavi etmek amacıyla sunulan yöntemlerin yüksek maliyetli olması hasta vekillerini, STK’lar aracılığı ile tedavi maliyetlerini karşılamak için bağış toplamaya yönlendirmiştir [1,2] ancak bu bağışların bir kısmı metrobüs duraklarında stant başında zorlu şartlar altında toplanırken bir diğer kısmı sosyal medyanın farklı mecraları üzerinden toplanmaktadır, bu nedenle bağış yapmak isteyenler nereye bağış yapacaklarını tam olarak bilememekle beraber ismini duyurmuş kuruluşlar sürekli bağış alırken pek duyulmayan kuruluşlar yeterince bağış alamamaktadır, dolayısıyla STK’lara yapılan bağışlarda düzensizlikler oluşmaktadır.
 
 1.2.	ARAŞTIRMA SORUSU
 Sivil Toplum Kuruluşlarının bir arada bulunduğu ortak bir platform sağlayan mobil uygulama; SMA ve kanser hastalarına destek sağlamak amacıyla etkili olabilir mi, belirtilen problemlere bir çözüm sunabilir mi?
 
 1.3.	ÖZGÜN DEĞER
+
 Bu noktada araştırma önerisinin özgür değeri ise SMA ve kanser hastalarına yardım amaçlı kurulan sivil toplum kuruluşlarının yardım toplayabileceği ortak bir platformun henüz mevcut olmayışından kaynaklanır.
 Bu uygulama, bağış toplama sürecindeki düzensizlikleri azaltarak daha adil bir dağıtım sağlayabilir ve hastaların tedavi maliyetlerini karşılamak için daha fazla bağış toplanmasını sağlayabilir. Ayrıca, uygulama aracılığıyla bağış yapmak isteyenler, hangi kategoride hangi STK'ların hastalara destek sağladığını daha kolay bir şekilde bulabilirler. Proje, hem SMA ve kanser hastalarının tedavi maliyetlerinin karşılanmasına hem de bağışçıların ihtiyaçlarına yardımcı olacak ve sosyal yardım konusunda farkındalığı arttıracaktır.
 Proje adı, “Bağışların Birliği Yaşamın Dirliği” mottosuyla yola çıkarak “Babiyad” olarak belirlenmiştir.
 
 1.4.	AMAÇ VE HEDEFLER
+
 Projenin amacı, hem bağış yapmak isteyenlerin hem de STK’lar tarafından desteklenen hastaların ihtiyaçlarını karşılamak için ortak bir platform sağlayan mobil uygulama geliştirmektir; böylece projenin adını aldığı “Bağışların Birliği Yaşamın Dirliği” mottosuyla yola çıkarak bağışların tek bir yerden kolaylıkla yönetilerek hastaların yaşam kalitesine bir katkı sağlanacaktır.
 Bu amaç doğrultusunda projenin hedefleri şunlardır:
 •	STK’lar ve bağış yapmak isteyenler arasında bir bağ oluşturmak,
@@ -24,5 +27,4 @@ Bu amaç doğrultusunda projenin hedefleri şunlardır:
 •	Uzun vadede; yalnızca SMA ve kanser hastalarına değil hem diğer hastalık gruplarına hem de canlı yaşamını destekleyen her türlü kuruluşa katkı sunarak daha fazla canlının ihtiyaçlarını karşılamak.
 
 Detaylar için bitirme projemin dosyasını bırakıyorum inceleyebilirsiniz:
-
 [Bitirme.docx](https://github.com/melsagin/Babiyad/files/13392247/Bitirme.docx)
