@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.melsasagin.babiyad.DetailsActivity"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/city_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/sehir_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/city_name"
+            app:layout_constraintTop_toBottomOf="@+id/address_view" />
+
+        <TextView
+            android:id="@+id/details_header"
+            android:layout_width="280dp"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:text="@string/details_name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046" />
+
+        <TextView
+            android:id="@+id/head_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center_vertical"
+            android:inputType="text|textMultiLine"
+            android:text="STK Başkanı"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/head_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/user_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Başkan"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toEndOf="@+id/head_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/address_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Semt"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/head_name" />
+
+        <EditText
+            android:id="@+id/address_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/semt_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="İlçe"
+            android:inputType="text|textMultiLine"
+            android:paddingLeft="10dp"
+
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/address_name"
+            app:layout_constraintTop_toBottomOf="@+id/head_view" />
+
+        <TextView
+            android:id="@+id/uye_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Stk üye sayısı"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desc_name" />
+
+        <EditText
+            android:id="@+id/uye_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/ic_member_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Üye Kişi Sayısı"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.695"
+            app:layout_constraintStart_toEndOf="@+id/uye_name"
+            app:layout_constraintTop_toBottomOf="@+id/desc_view" />
+
+        <TextView
+            android:id="@+id/items_name"
+            android:layout_width="172dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center_vertical"
+            android:text="İlgi Alanı"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/sma_cb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stk_spinner"
+            app:layout_constraintVertical_bias="0.784" />
+
+        <CheckBox
+            android:id="@+id/sma_cb"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:buttonTint="@color/black"
+            android:text="Sma"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/items_name" />
+
+        <CheckBox
+            android:id="@+id/kanser_cb"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:buttonTint="@color/black"
+            android:text="Kanser"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sma_cb" />
+
+        <TextView
+            android:id="@+id/items_name2"
+            android:layout_width="172dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center_vertical"
+            android:text="Diğer Detaylar"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/phone_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kanser_cb"
+            app:layout_constraintVertical_bias="0.808" />
+
+        <TextView
+            android:id="@+id/desc_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Açıklama"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone_name" />
+
+        <EditText
+            android:id="@+id/desc_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/description_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toEndOf="@+id/desc_name"
+            app:layout_constraintTop_toBottomOf="@+id/phone_view" />
+
+        <TextView
+            android:id="@+id/phone_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="Telefon"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/items_name2" />
+
+        <EditText
+            android:id="@+id/phone_view"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_round"
+            android:backgroundTint="#EDEDED"
+            android:drawableRight="@drawable/contactno_vector_asset"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHighlight="@color/black"
+            android:textColorLink="@color/black"
+            android:textCursorDrawable="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toEndOf="@+id/phone_name"
+            app:layout_constraintTop_toBottomOf="@+id/items_name2" />
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="880dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/custom_button"
+            android:text="Kaydet"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.852"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/photo_btn"
+            android:layout_width="180dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="880dp"
+            android:background="@drawable/custom_button"
+            android:drawableRight="@drawable/camera_vector_asset"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="40dp"
+            android:paddingRight="10dp"
+            android:text="Fotoğrafları Yükle"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.126"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.58" />
+
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Şehir"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address_name" />
+
+        <TextView
+            android:id="@+id/state_name"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="Kurum"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/items_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/city_name"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Spinner
+            android:id="@+id/stk_spinner"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/state_name"
+            app:layout_constraintTop_toBottomOf="@+id/city_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

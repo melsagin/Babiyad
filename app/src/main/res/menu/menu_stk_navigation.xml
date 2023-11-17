@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/donations"
+        android:icon="@drawable/ic_bagis_eli"
+        android:iconTint="#0091EA"
+        android:title="Bağışlar" />
+    <item
+        android:id="@+id/events"
+        android:icon="@drawable/ic_etkinlik_goruntule"
+        android:iconTint="#0091EA"
+        android:title="Etkinlikler" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:iconTint="#0091EA"
+        android:title="Profil" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_geri_bildirim"
+        android:iconTint="#0091EA"
+        android:title="Geri Bildirim" />
+    <item
+        android:id="@+id/signout"
+        android:icon="@drawable/ic_cikis_yap"
+        android:iconTint="#0091EA"
+        android:title="Çıkış Yap" />
+</menu>

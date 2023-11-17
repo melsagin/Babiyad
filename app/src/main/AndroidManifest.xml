@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.melsasagin.babiyad">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!--UploadActivity için görseli galeriden almak için-->
+    <uses-permission android:name="android.permission.INTERNET" /> <!--Uygulamanın çalışması ve (DashboardOrgActivity) url lelerin alınması için-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Babiyad">
+        <activity android:name="com.melsasagin.babiyad.Hakkimizda" />
+        <activity android:name="com.melsasagin.babiyad.SSS" />
+        <activity android:name="com.melsasagin.babiyad.EtkinlikGoruntule" />
+        <activity android:name="com.melsasagin.babiyad.EtkinligeKonuklukEt" />
+        <activity android:name="com.melsasagin.babiyad.BagisDetaylariniGoster" />
+        <activity android:name="com.melsasagin.babiyad.BagisDetaylari" />
+        <activity android:name="com.melsasagin.babiyad.Donor" />
+        <activity android:name="com.melsasagin.babiyad.ForgotPassword" />
+        <activity android:name="com.melsasagin.babiyad.RegisterUser" />
+        <activity
+            android:name="com.melsasagin.babiyad.LoginActivity"
+            android:exported="true"> <!--Belirtilen aktivitenin diğer uygulamalar tarafından kullanılabilir olduğunu belirtir-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.melsasagin.babiyad.DashboardOrgActivity" />
+        <activity android:name="com.melsasagin.babiyad.DetailsActivity" />
+        <activity android:name="com.melsasagin.babiyad.ProfileActivity" />
+        <activity android:name="com.melsasagin.babiyad.UploadActivity" />
+        <activity android:name="com.melsasagin.babiyad.DonationActivity" />
+        <activity android:name="com.melsasagin.babiyad.DisplayOrgs" />
+        <activity android:name="com.melsasagin.babiyad.BagisAyrintilariStk" />
+    </application>
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "196256419549",
+    "firebase_url": "https://babiyad-d20f0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "babiyad-d20f0",
+    "storage_bucket": "babiyad-d20f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196256419549:android:83ee0e8a6edc367472d534",
+        "android_client_info": {
+          "package_name": "com.melsasagin.babiyad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196256419549-o0eagqh25njg4ldmipt7qspgh4bv4o4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.melsasagin.babiyad",
+            "certificate_hash": "45dc728dc55e986c17e6a6625db7f7556eb32771"
+          }
+        },
+        {
+          "client_id": "196256419549-f780mmo01m2219nf42gmgc6e3t9n8dpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAX6ZDKItGpLSmC2JQ6boRJZICxS9fYCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196256419549-f780mmo01m2219nf42gmgc6e3t9n8dpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

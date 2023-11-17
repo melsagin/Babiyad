@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:iconTint="#0091EA"
+        android:id="@+id/hostevents"
+        android:title="Etkinlik Oluştur"
+        android:icon="@drawable/ic_etkinlik"/>
+    <item
+        android:iconTint="#0091EA"
+        android:id="@+id/showevents"
+        android:title="Etkinlikler"
+        android:icon="@drawable/ic_etkinlik_goruntule"/>
+    <item
+        android:iconTint="#0091EA"
+        android:id="@+id/about"
+        android:title="Geri Bildirim"
+        android:icon="@drawable/ic_geri_bildirim"/>
+    <item
+        android:iconTint="#0091EA"
+        android:id="@+id/faq"
+        android:title="SSS"
+        android:icon="@drawable/ic_sss"/>
+    <item
+        android:iconTint="#0091EA"
+        android:id="@+id/signout"
+        android:title="Çıkış Yap"
+        android:icon="@drawable/ic_cikis_yap"/>
+</menu>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/details_header"
+            android:layout_width="200dp"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:text="Bağış Ayrıntıları"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.113"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034" />
+
+
+        <LinearLayout
+            android:id="@+id/tvfullname"
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/details_header"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textviewfullname"
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:text="Bağışçının Adı :"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detailfullname"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tvemailid"
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvfullname"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textviewemailid"
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:text="Eposta :"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detailemailid"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="16dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tvaddress"
+            android:layout_width="360dp"
+            android:layout_height="163dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvemailid"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/textviewaddress"
+                android:layout_width="123dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:text="Bağış Miktarı: "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detailsdonated"
+                android:layout_width="200dp"
+                android:layout_height="132dp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tvarea"
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvaddress"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:text="Bağış Tarihi :"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dated_val"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_received"
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvarea"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical"
+                android:text="Alınan Tarih :"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dater_val"
+                android:layout_width="200dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp" />
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchcompat"
+            android:layout_width="249dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="32dp"
+            android:text="Alınan Bağış "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

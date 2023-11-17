@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name" translatable="false">Babiyad</string>
+    <string name="bagis_yap" translatable="false">Bağış Yap</string>
+    <string name="dashboard_name" translatable="false">STK Sayfasına Hoş Geldiniz</string>
+    <string name="profile_name" translatable="false">Profil</string>
+    <string name="details_name" translatable="false">STK Detayları</string>
+    <string name="back" translatable="false">Geri</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Şifre</string>
+    <string name="action_sign_in" translatable="false">Giriş Yap veya Kayıt Ol</string>
+    <string name="action_sign_in_short" translatable="false">Giriş Yap</string>
+    <string name="welcome" translatable="false">"Hoş Geldin !"</string>
+    <string name="invalid_username" translatable="false">Kullanıcı adı geçerli değil</string>
+    <string name="invalid_password" translatable="false">Şifre >5 karakterden oluşmalıdır.</string>
+    <string name="login_failed" translatable="false">"Giriş başarısız oldu"</string>
+    <string name="skip" translatable="false">Atla</string>
+    <string name="next" translatable="false">Geç</string>
+    <string name="call" translatable="false">Ara</string>
+    <string name="open" translatable="false">Aç</string>
+    <string name="close" translatable="false">Kapa</string>
+
+    <string-array name="bagisTuru">
+        <item>Sma</item>
+        <item>Kanser</item>
+        <item>Çoklu</item>
+    </string-array>
+
+    <string name="Q1" translatable="false">Kuruluşun belgeleriyle ne yapıyorsunuz ?</string>
+    <string name="Q2" translatable="false">Bağışınıza neden güvenelim ?</string>
+    <string name="Q3" translatable="false">Kuruluşlara nasıl bağış yapabilirim ?</string>
+    <string name="Q4" translatable="false">STK\'ların ayrıntıları nasıl kontrol edilir ? </string>
+    <string name="Q5" translatable="false">Amacım için nasıl bir etkinlik koyabilirim ?</string>
+    <string name="Q6" translatable="false">Hangi kategorilere bağış yapabiliriz ?</string>
+    <string name="Q7" translatable="false">STK\'lar bağışları nasıl görüntüler ? </string>
+    <string name="Q8" translatable="false">Doğrulanmış seçeneğinde neden doğrulanmıyorum veya doğrulama sürekli değişiyor ?</string>
+    <string name="Q9" translatable="false">Kullanıcılar STK\'ların doğrulandığını veya yalnızca doğrulanmış STK\'ları görüntülediğinizi nasıl anlayacak ?</string>
+    <string name="Q10" translatable="false">Sahte Kuruluşlar veya kullanıcılar için hangi işlemler yapılacak ?</string>
+    <string name="Q11" translatable="false">Uygulamanız, takvime etkinlik eklemek için bir özellik içeriyor mu ?</string>
+    <string name="sign_in" translatable="false">Oturum Aç</string>
+    <string name="create" translatable="false">Yeni Hesap Oluştur</string>
+    <string name="browse_upload_documents" translatable="false"><![CDATA[Göz At & Belgeleri Yükle]]></string>
+    <string name="profil" translatable="false">Profil</string>
+    <string name="upload_details" translatable="false">Ayrıntıları Yükle</string>
+    <string name="update_password" translatable="false">Şifreni Değiştir</string>
+    <string name="upload_doc" translatable="false">Belgeleri Yükle</string>
+    <string name="login" translatable="false">Giriş Yap</string>
+
+    <string-array name="Q1">
+        <item>Sivil Toplum Kuruluşlarının kötüye kullanılmasını önlemek ve Adminden başka kimsenin verilere erişimi olmamasını sağlamak için kuruluşların gerçekten var olup olmadıklarını doğrulamak amacıyla belgelere ihtiyaç duyulur.</item>
+    </string-array>
+
+    <string-array name="Q2">
+        <item>Bağışların kötüye kullanılmadığı garanti edilir. Herhangi bir aracı hizmet olmadan bağışçılar ve kuruluşlar arasında doğrudan bağış yapılması birincil amaçtır. Babiyad sadece size bu hizmeti sağlamak için yardımcı bir platform sunar.</item>
+    </string-array>
+
+    <string-array name="Q3">
+        <item>Bağış yapmak için bağışçı olarak oturum açmanız, bağışlamak istediğiniz kategorinin veya kategorilerin onay kutularını işaretlemeniz, ihtiyaca göre mevcut STK\'ların listesini kontrol etmek için Stk Seç düğmesine tıklamanız ve herhangi bir STK\'ya tıklamanız gerekir.</item>
+    </string-array>
+
+    <string-array name="Q4">
+        <item>STK\'nın adına tıkladıktan sonra, bir sonraki sayfada ayrıntıları gösterme seçeneğini göreceksiniz.</item>
+    </string-array>
+
+    <string-array name="Q5">
+        <item>Bağışçı olarak oturum açmanız yeterlidir ve navbardan etkinlik oluşturmak için bir bölüm bulacaksınız. Oradan etkinlik düzenleyebilirsiniz.</item>
+    </string-array>
+
+    <string-array name="Q6">
+        <item>Bağış kategorileri kısıtlanmamaktadır ancak kapsamı başlangıç için sınırlandırılmıştır. Platform talep halinde başka alanlarda da bağış alabilecektir ancak şu an yalnızca Sma ve Kanser kategorileri bulunmaktadır.</item>
+    </string-array>
+
+    <string-array name="Q7">
+        <item>Onaylanan ve Onaylanmayı Bekleyen bağışçıların bir listesi ayrıntılarıyla sunulmaktadır. Oradan bağışları takip edebilirsiniz.</item>
+    </string-array>
+
+    <string-array name="Q8">
+        <item>Eğer uygulama tarafından henüz doğrulanmadıysanız 0 gözükmesi normaldir, sürekli değişen bir sonuç görüyorsanız çıkış yapıp tekrar giriş yapmayı deneyin ve doğrulanana kadar lütfen bekleyiniz.</item>
+    </string-array>
+
+    <string-array name="Q9">
+        <item>Uygulama tarafından doğrulanmamış hiçbir STK \'ya bağış yapılamayacaktır.</item>
+    </string-array>
+
+    <string-array name="Q10">
+        <item>Herhangi bir kullanıcı veya Kuruluş sahte ise bu hesaplar uygulamadan silinecektir.</item>
+    </string-array>
+
+    <string-array name="Q11">
+        <item>İçeriyor. Etkinliklere Konukluk Et\'e tıkladıktan sonra takvime etkinlik ekleyebilirsiniz.</item>
+    </string-array>
+
+    <string-array name="stk_names">
+        <item>Lösev</item>
+        <item>Kasder</item>
+        <item>Kaçuv</item>
+        <item>Kayd</item>
+        <item>Kansere Gülümse Derneği</item>
+        <item>Kanserle Dans Derneği</item>
+        <item>Kanserle Yaşam ve Dayanışma Derneği</item>
+        <item>Kanser Savaşçıları</item>
+        <item>Onkoloji Hastaları Yardımlaşma ve Sevgi Derneği</item>
+        <item>Lösemi ve Kanser Hastaları Saglık Eğitim Derneği</item>
+        <item>Pembe Hanım Kanserli Hasta ve Yakınları Derneği</item>
+        <item>Prostat Kanseri Derneği</item>
+        <item>Türkiye SMA Vakfı</item>
+        <item>SMA Benimle Yürü Derneği</item>
+        <item>Diğer</item>
+    </string-array>
+</resources>
