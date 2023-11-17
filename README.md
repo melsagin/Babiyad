@@ -8,6 +8,7 @@ Proje, içinde barındırdığı geri bildirim mekanizmasıyla ilerleyen versiyo
 Günümüzde SMA ve Kanser hastalarını tedavi etmek amacıyla sunulan yöntemlerin yüksek maliyetli olması hasta vekillerini, STK’lar aracılığı ile tedavi maliyetlerini karşılamak için bağış toplamaya yönlendirmiştir [1,2] ancak bu bağışların bir kısmı metrobüs duraklarında stant başında zorlu şartlar altında toplanırken bir diğer kısmı sosyal medyanın farklı mecraları üzerinden toplanmaktadır, bu nedenle bağış yapmak isteyenler nereye bağış yapacaklarını tam olarak bilememekle beraber ismini duyurmuş kuruluşlar sürekli bağış alırken pek duyulmayan kuruluşlar yeterince bağış alamamaktadır, dolayısıyla STK’lara yapılan bağışlarda düzensizlikler oluşmaktadır.
 
 1.2.	ARAŞTIRMA SORUSU
+
 Sivil Toplum Kuruluşlarının bir arada bulunduğu ortak bir platform sağlayan mobil uygulama; SMA ve kanser hastalarına destek sağlamak amacıyla etkili olabilir mi, belirtilen problemlere bir çözüm sunabilir mi?
 
 1.3.	ÖZGÜN DEĞER
