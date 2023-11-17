@@ -121,7 +121,7 @@ public class BagisAyrintilariStk extends AppCompatActivity {
 
             }
         });
-
+//
     }
 }
 
